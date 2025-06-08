@@ -91,7 +91,7 @@ const updateTable = () => {
     const dbClient = readClient()
     clearTable()
     dbClient.forEach(createRow)
-    db.Charset. UTF8
+    
 }
 
 const fillFields = (client) => {
